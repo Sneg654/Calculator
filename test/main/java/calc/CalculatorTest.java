@@ -144,7 +144,7 @@ Calculator cal=new Calculator();
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void fibonacciSequence_ShouldThrowExceptionWhenArgumentLessZero(){
+    public void fibonacciSequenceShouldThrowExceptionWhenArgumentLessZero(){
         //GIVEN
         int countArguments=-5;
         List<Integer> sequence;
